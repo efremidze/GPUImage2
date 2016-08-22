@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8B872B521D33724A00BA58E2 /* ToneCurveFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B872B511D33724A00BA58E2 /* ToneCurveFilter.swift */; };
 		BC6A13901CBB4F5600387779 /* ConvertedShaders_GLES.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6A138F1CBB4F5600387779 /* ConvertedShaders_GLES.swift */; };
 		BC6A13A01CBB503900387779 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6A13921CBB503900387779 /* Color.swift */; };
 		BC6A13A11CBB503900387779 /* FillMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6A13931CBB503900387779 /* FillMode.swift */; };
@@ -181,6 +182,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8B872B511D33724A00BA58E2 /* ToneCurveFilter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ToneCurveFilter.swift; path = Source/Operations/ToneCurveFilter.swift; sourceTree = "<group>"; };
 		BC6A138F1CBB4F5600387779 /* ConvertedShaders_GLES.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ConvertedShaders_GLES.swift; path = Source/Operations/Shaders/ConvertedShaders_GLES.swift; sourceTree = SOURCE_ROOT; };
 		BC6A13921CBB503900387779 /* Color.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Color.swift; path = Source/Color.swift; sourceTree = "<group>"; };
 		BC6A13931CBB503900387779 /* FillMode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FillMode.swift; path = Source/FillMode.swift; sourceTree = "<group>"; };
@@ -639,6 +641,7 @@
 		BCE316F11CA0E65500323D5B /* Color processing */ = {
 			isa = PBXGroup;
 			children = (
+				8B872B511D33724A00BA58E2 /* ToneCurveFilter.swift */,
 				BCFB05D51CBF1F61009B2333 /* Luminance.swift */,
 				BCFB05DB1CBF1F85009B2333 /* Luminance_GLES.fsh */,
 				BCFB05D31CBF1F61009B2333 /* BrightnessAdjustment.swift */,
@@ -1139,6 +1142,7 @@
 				BCFB07401CBF2BC1009B2333 /* PolarPixellate.swift in Sources */,
 				BCFB05B81CBF1D15009B2333 /* SolidColorGenerator.swift in Sources */,
 				BCFB06011CBF1FF8009B2333 /* ExclusionBlend.swift in Sources */,
+				8B872B521D33724A00BA58E2 /* ToneCurveFilter.swift in Sources */,
 				BCFB06AC1CBF284A009B2333 /* LocalBinaryPattern.swift in Sources */,
 				BCFB06AB1CBF284A009B2333 /* Laplacian.swift in Sources */,
 				BC6A13A61CBB503900387779 /* Position.swift in Sources */,

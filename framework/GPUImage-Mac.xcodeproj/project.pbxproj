@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8B22FB281D337289004DABB5 /* ToneCurveFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B22FB271D337289004DABB5 /* ToneCurveFilter.swift */; };
 		BC09239E1C92658200A2ADFA /* ShaderProgram_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC09239D1C92658200A2ADFA /* ShaderProgram_Tests.swift */; };
 		BC0923A11C92661D00A2ADFA /* Pipeline_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC09239F1C9265A600A2ADFA /* Pipeline_Tests.swift */; };
 		BC0923A21C92664900A2ADFA /* Framebuffer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB279EB1C8D11630013E213 /* Framebuffer.swift */; };
@@ -192,6 +193,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8B22FB271D337289004DABB5 /* ToneCurveFilter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ToneCurveFilter.swift; path = Source/Operations/ToneCurveFilter.swift; sourceTree = "<group>"; };
 		BC09239D1C92658200A2ADFA /* ShaderProgram_Tests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ShaderProgram_Tests.swift; path = Tests/ShaderProgram_Tests.swift; sourceTree = SOURCE_ROOT; };
 		BC09239F1C9265A600A2ADFA /* Pipeline_Tests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Pipeline_Tests.swift; path = Tests/Pipeline_Tests.swift; sourceTree = SOURCE_ROOT; };
 		BC1E12F41C9F2FD7008F844F /* ThreeInput.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; name = ThreeInput.vsh; path = Source/Operations/Shaders/ThreeInput.vsh; sourceTree = "<group>"; };
@@ -573,6 +575,7 @@
 		BC4C85F31C9F114600FD95D8 /* Color processing */ = {
 			isa = PBXGroup;
 			children = (
+				8B22FB271D337289004DABB5 /* ToneCurveFilter.swift */,
 				BC4C85F11C9F05EB00FD95D8 /* Luminance.swift */,
 				BC4C85F01C9F054100FD95D8 /* Luminance_GL.fsh */,
 				BC7FD0851CA62E1100037949 /* BrightnessAdjustment.swift */,
@@ -1148,6 +1151,7 @@
 				BC7FD0F31CB0612700037949 /* AddBlend.swift in Sources */,
 				BC7FD1931CB1D38500037949 /* Size.swift in Sources */,
 				BC4EE1741CB3711600AD8A65 /* GaussianBlur.swift in Sources */,
+				8B22FB281D337289004DABB5 /* ToneCurveFilter.swift in Sources */,
 				BC7FD0A21CA6316600037949 /* Haze.swift in Sources */,
 				BCB279EA1C8D0E800013E213 /* Camera.swift in Sources */,
 				BC4C85FA1C9F169D00FD95D8 /* SaturationAdjustment.swift in Sources */,
